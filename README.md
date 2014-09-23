@@ -14,6 +14,8 @@ meteor add ecwyne:polymer-elements
 ##How to Use
 Simply follow the instructions layed out on [polymer-project.org](http://www.polymer-project.org/docs/start/usingelements.html). Step 1 is already taken care of for you!
 
+After your first `meteor run` you can browse your `[APP_DIR]/public/bower_components/` directory to find installed elements. See below for how to `<link rel="import"` these elements and start using them!
+
 ###Example
 ```html
 <head>
