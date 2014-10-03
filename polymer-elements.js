@@ -19,4 +19,4 @@ _.forEach(bowerCommands, function (command) {
 
 console.log('installing polymer-elements');
 var dir = path.join(path.relative(process.cwd(), process.env.PWD), 'public/bower_components');
-Bower.install(['Polymer/core-elements#0.4.0', 'Polymer/paper-elements'], {save: true}, {directory: dir});
+Bower.install(['Polymer/core-elements#0.4.2', 'Polymer/paper-elements'], {save: true}, {directory: dir});
