@@ -19,22 +19,11 @@ After your first `meteor run` you can browse your `[APP_DIR]/public/bower_compon
 ###Example
 ```html
 <head>
-	<link rel="import" href="bower_components/core-ajax/core-ajax.html">
+  <!-- Add any <link rel="import" href="[path/to/element]"> tags you will use -->
+	<link rel="import" href="bower_components/paper-checkbox/paper-checkbox.html">
 </head>
 <body>
-	<core-ajax url="//example.com/json" handleAs="json"></core-ajax>
-	<script>
-      // Wait for 'polymer-ready'. Ensures the element is upgraded.
-      window.addEventListener('polymer-ready', function(e) {
-        var ajax = document.querySelector('core-ajax');
-
-        // Respond to events it fires.
-        ajax.addEventListener('core-response', function(e) {
-          console.log(this.response);
-        });
-
-        ajax.go(); // Call its API methods.
-      });
-    </script>
+  <!-- Simply use elements in body or in templates -->
+	<paper-checkbox checked><paper-checkbox>
 </body>
 ```
