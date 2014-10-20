@@ -24,6 +24,6 @@ After your first `meteor run` you can browse your `[APP_DIR]/public/bower_compon
 </head>
 <body>
   <!-- Simply use elements in body or in templates -->
-	<paper-checkbox checked><paper-checkbox>
+	<paper-checkbox checked></paper-checkbox>
 </body>
 ```
