@@ -17,6 +17,7 @@ Simply follow the instructions layed out on [polymer-project.org](http://www.pol
 After your first `meteor run` you can browse your `[APP_DIR]/public/bower_components/` directory to find installed elements. See below for how to `<link rel="import"` these elements and start using them!
 
 ###Example
+app.html
 ```html
 <head>
   <!-- Add any <link rel="import" href="[path/to/element]"> tags you will use -->
