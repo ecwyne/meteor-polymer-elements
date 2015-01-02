@@ -20,7 +20,7 @@ _.forEach(bowerCommands, function (command) {
 
 	var dir = path.join(path.relative(process.cwd(), process.env.PWD), 'public/bower_components');
 	var localCache = _.values(Bower.list(null, {offline: true, directory: dir}).pkgMeta.dependencies);
-	if (!_.contains(localCache, 'Polymer/core-elements#0.5.0')){
+	if (!_.contains(localCache, 'Polymer/core-elements#0.5.2')){
 		console.log('installing polymer-elements');
 		Bower.install(['Polymer/core-elements#0.5.2', 'Polymer/paper-elements'], {save: true}, {directory: dir});
 	}
