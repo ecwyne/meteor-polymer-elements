@@ -22,7 +22,7 @@ All necessary web components and routing is done for you! All you have to do is 
 ```
 #####automatic_helper.js
 ```js
-  Template.automatic_helper.helers({
+  Template.automatic_helper.helpers({
     attributeObject = function(){return {checked = true}}
   })
 ```
