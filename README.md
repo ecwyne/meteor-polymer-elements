@@ -1,6 +1,6 @@
 #Meteor-Polymer
 
-Add the magic of web components and [Polymer](http://polymer-project.org) to [Meteor](http://meteor.com)!
+Add the magic of web components and [Polymer](http://polymer-project.org) [(0.5.5)](https://github.com/polymer/polymer/releases) to [Meteor](http://meteor.com)!
 
 ##About
 This package adds [core-elements and paper-elements](http://www.polymer-project.org/docs/elements/) from Polymer.
@@ -12,17 +12,35 @@ meteor add ecwyne:polymer-elements
 ```
 
 ##How to Use
-After your first `meteor run` you can browse your `[APP_DIR]/public/bower_components/` directory to find installed elements. See below for how to `<link rel="import"` these elements and start using them!
+All necessary web components and routing is done for you! All you have to do is use them! See below for how to import these elements and start [using them](https://www.polymer-project.org/0.5/docs/start/usingelements.html#using)! 
 
-###Example
-app.html
+##Examples
+######automatic_helper.html
 ```html
-<head>
+  <!-- replace dashes with underscores for any element -->
+	{{> paper_checkbox attrs=attributeObject}}
+```
+#####automatic_helper.js
+```js
+  Template.automatic_helper.helers({
+    attributeObject = function(){return {checked = true}}
+  })
+```
+######link_helper.html
+```html
+  <!--use a helper to import the link tags automatically -->
+    {{> paper_checkbox_link}}
+  <!-- Use the component as you normally would -->
+	<paper-checkbox checked></paper-checkbox>
+```
+######vanilla_polymer.html
+```html
   <!-- Add any <link rel="import" href="[path/to/element]"> tags you will use -->
 	<link rel="import" href="bower_components/paper-checkbox/paper-checkbox.html">
-</head>
-<body>
-  <!-- Simply use elements in body or in templates -->
+  <!-- Use the component as you normally would -->
 	<paper-checkbox checked></paper-checkbox>
-</body>
+```
+#####block_helper.html
+```html
+  {{#paper_button}}Submit!{{/paper_button}}
 ```

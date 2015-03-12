@@ -1,6 +1,6 @@
 Package.describe({
 	summary: 'Add Polymer-Elements to Meteor',
-	version: '1.0.6',
+	version: '1.0.7',
 	git: 'http://github.com/ecwyne/meteor-polymer-elements',
 	name: 'ecwyne:polymer-elements'
 });
@@ -16,6 +16,8 @@ Package.onUse(function(api) {
 	});
 	api.addFiles('handler.js', 'server');
 	api.addFiles('import.html', 'client');
+	api.addFiles('helpers.js', 'client');
+
 });
 
 function getFiles(){
