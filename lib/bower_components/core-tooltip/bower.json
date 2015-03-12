@@ -1,0 +1,14 @@
+{
+  "name": "core-tooltip",
+  "private": true,
+  "description": "Tooltip popup for content",
+  "dependencies": {
+    "polymer": "Polymer/polymer#master",
+    "core-focusable": "Polymer/core-focusable#master",
+    "core-icon-button": "Polymer/core-icon-button#master",
+    "core-resizable": "Polymer/core-resizable#master"
+  },
+  "devDependencies": {
+    "paper-fab": "Polymer/paper-fab#master"
+  }
+}

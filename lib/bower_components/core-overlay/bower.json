@@ -1,0 +1,9 @@
+{
+  "name": "core-overlay",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#master",
+    "core-transition": "Polymer/core-transition#master",
+    "core-resizable": "Polymer/core-resizable#master"
+  }
+}

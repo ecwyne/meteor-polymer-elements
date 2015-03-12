@@ -1,0 +1,8 @@
+{
+  "name": "core-splitter",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#master",
+    "core-resizable": "Polymer/core-resizable#master"
+  }
+}
