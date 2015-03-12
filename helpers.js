@@ -30,6 +30,6 @@ function elementFunction(element){
 function linkFunction(element){
 	return function() {
 		var view = this;
-		return [ HTML.Raw('<head>\n		<link rel="import" href="bower_components/' + element + '/' + element + '.html">\n	</head>\n	')];
+		return [ HTML.Raw('<head>\n		<link rel="import" href="/bower_components/' + element + '/' + element + '.html">\n	</head>\n	')];
 	}
 }
