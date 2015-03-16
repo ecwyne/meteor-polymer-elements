@@ -15,6 +15,7 @@ meteor add ecwyne:polymer-elements
 All necessary web components and routing is done for you! All you have to do is use them! See below for how to import these elements and start [using them](https://www.polymer-project.org/0.5/docs/start/usingelements.html#using)! 
 
 ## Examples
+Check out the [wiki](https://github.com/ecwyne/meteor-polymer-elements/wiki/Examples)!
 ###### automatic_helper.html
 ```html
   <!-- replace dashes with underscores for any element -->
