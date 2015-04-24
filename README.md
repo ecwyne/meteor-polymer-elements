@@ -24,7 +24,7 @@ Check out the [wiki](https://github.com/ecwyne/meteor-polymer-elements/wiki/Exam
 ##### automatic_helper.js
 ```js
   Template.automatic_helper.helpers({
-    attributeObject = function(){return {checked = true}}
+    attributeObject = function(){return {checked: true}}
   })
 ```
 ###### link_helper.html
