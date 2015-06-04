@@ -1,0 +1,40 @@
+{
+  "name": "google-url-shortener",
+  "version": "1.0.0",
+  "homepage": "https://googlewebcomponents.github.io/google-url-shortener",
+  "description": "Web component to shorten URLs with the Google URL Shortener API",
+  "main": "google-url-shortener.html",
+  "authors": [
+    "Sérgio Gomes"
+  ],
+  "license": "Apache2",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "url-shortener",
+    "google"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "google-apis": "GoogleWebComponents/google-apis#^1.0.0"
+  },
+  "devDependencies": {
+    "web-component-tester": "*",
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.2"
+  },
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.0",
+    "commit": "5220e6330b9e5d8eabd6219c412ddd7fb5f70a87"
+  },
+  "_source": "git://github.com/GoogleWebComponents/google-url-shortener.git",
+  "_target": "^1.0.0",
+  "_originalSource": "GoogleWebComponents/google-url-shortener"
+}

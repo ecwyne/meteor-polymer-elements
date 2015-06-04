@@ -1,1 +1,5 @@
 .build*
+lib/app.js
+lib/files.json
+lib/node_modules
+**/.DS_Store
