@@ -5,7 +5,7 @@ Add the magic of web components and [Polymer](http://polymer-project.org) [(0.5.
 ## About
 This package adds [core-elements and paper-elements](http://www.polymer-project.org/docs/elements/) from Polymer.
 
-##How to Install
+## How to Install
 
 ```bash
 meteor add ecwyne:polymer-elements
